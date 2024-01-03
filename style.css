@@ -1,0 +1,294 @@
+ * {
+     /* background-color: azure; */
+     padding: .1px;
+     margin: .1px;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ header { 
+    background-color: white;
+      position: sticky;
+         top: 0px;
+ 
+ }
+  
+
+ .nav-item {
+     margin-right: 50px;
+ }
+
+ #carouselIndicators {
+     margin: 25px;
+ }
+
+ #second {
+     border: .5px solid #f3f0f0;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin: 10px 15px;
+     width: 98%;
+ }
+
+ .fullcard {
+     margin-top: 5px;
+     border: .5px solid white;
+     justify-content: start;
+ }
+
+ .cardbar {
+     object-fit: cover;
+     flex-direction: row;
+     height: 200;
+     overflow-x: auto;
+ }
+
+ .cardbar::-webkit-scrollbar {
+     width: 0;
+ }
+
+ .cards {
+     height: 300px;
+     min-width: 225px;
+     text-align: center;
+     margin: 5px;
+     border: .5px solid black;
+ }
+
+ .cardss {
+     height: 212px;
+     width: 180px;
+     text-align: center;
+     margin: 3px;
+     border: .5px solid black;
+ }
+
+ .add {
+     margin-top: 15px;
+
+     max-height: 300px;
+     background-color: red;
+ }
+
+ .addImage {
+     max-width: 220px;
+
+     margin: 10px;
+     padding: 5px;
+ }
+
+ .bar {
+     flex-direction: row;
+     margin-bottom: 15px;
+     justify-content: space-between;
+ }
+
+
+
+ .bars {
+     flex-direction: column;
+     margin-bottom: 15px;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     height: 442px;
+     width: 394px;
+     padding: 2px;
+     border: .5px solid black;
+     background-color: white;
+ }
+
+ .grocery {
+     align-content: center;
+ }
+
+ .Mobile {
+     align-content: center;
+ }
+
+ .Fashion {
+     align-content: center;
+ }
+
+ .Electronic {
+     align-content: center;
+ }
+
+ .Home {
+     align-content: center;
+ }
+
+ .Apperance {
+     align-content: center;
+ }
+
+ .Travel {
+     align-content: center;
+ }
+
+
+ /* .slid{ 
+        display: none;
+    } */
+ .slid li {
+     margin-bottom: 15px;
+ }
+
+ /*  jakhon hover korbo tr por kichu open hoba sa casa
+     .slid ka normal a banala hoba na
+     hover sanga bana ta hoba
+     .slid {
+        display:block;
+         position:absolute;
+          top: 0px; 
+          left: 219px;
+          padding: 10px;
+          height: 500px;
+          width: 220px;
+        }
+    */
+    /* .slid{
+        position: relative;
+        top:auto;
+        left: auto;
+    } */
+    /* alllink ar */
+    #Mans:hover .slid {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 219px;
+        padding: 10px;
+        height: 500px;
+        width: 220px;
+    }
+     /*    nml */
+ #Man-Top:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Women-Top:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Weastern-wear:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Footwear:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Woman-Footwear:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Man-Top-wear:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Bag-Suitcase-laguage:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #kid:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+ }
+
+ #Essiential:hover .slid {
+     display: block;
+    
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+     background-color: rgb(167, 167, 240);
+
+ }
+ 
+ #Winter:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+     background-color: rgb(167, 167, 240);
+
+ }
+
+ #Watch-and-associator:hover .slid {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 219px;
+     padding: 10px;
+     height: 500px;
+     width: 220px;
+     background-color: rgb(167, 167, 240);
+ }
+ @media (max-width: 1266px) {
+/*div handel korla flex-wrap=wrap kora ta hhoba */
+
+    /*  ja racom dorkar sa rakom ele style set kor */
+  }
+  footer{
+    background-color:rgb(42, 42, 72) ;
+    position: sticky;
+    bottom: 0px;
+color: white;
+  }
